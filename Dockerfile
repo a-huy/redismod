@@ -1,4 +1,4 @@
-FROM redislabs/redisai:latest as redisai
+FROM redisai/redisai:latest as redisai
 FROM redislabs/redisearch:latest as redisearch
 FROM redislabs/redisgraph:latest as redisgraph
 FROM redislabs/redistimeseries:latest as redistimeseries
